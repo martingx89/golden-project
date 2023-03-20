@@ -40,6 +40,26 @@ body {
 	margin-top: 0;
 }
 
+nav {
+	.nav-menu {
+		a {
+			text-decoration: none;
+			color: $color-two;
+			font-family: $font-main;
+		}
+
+		padding: 0;
+		margin: 0;
+		list-style-type: none;
+
+		li {
+			position: relative;
+			display: inline-block;
+			margin: 0 36px 0 0;
+		}
+	}
+}
+
 /*header*/
 
 .splash {
@@ -48,6 +68,7 @@ body {
 	min-height: 700px;
 
 	.splash-inner {
+		position: relative;
 		text-align: center;
 		margin: auto;
 	}
