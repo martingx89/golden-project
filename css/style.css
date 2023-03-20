@@ -1,3 +1,4 @@
+/*Variables*/
 /*Global*/
 *,
 *::before,
@@ -9,4 +10,10 @@ html {
   scroll-behavior: smooth;
 }
 
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxTQUFBO0FBRUE7OztFQUdDLHNCQUFBO0FDQUQ7O0FER0E7RUFDQyx1QkFBQTtBQ0FEIiwiZmlsZSI6InN0eWxlLmNzcyJ9 */
+body {
+  font-family: "Roboto Slab", serif;
+  font-weight: normal;
+  font-style: 14px;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxZQUFBO0FBT0EsU0FBQTtBQUVBOzs7RUFHQyxzQkFBQTtBQ05EOztBRFNBO0VBQ0MsdUJBQUE7QUNORDs7QURTQTtFQUNDLGlDQWhCYztFQWlCZCxtQkFBQTtFQUNBLGdCQUFBO0FDTkQiLCJmaWxlIjoic3R5bGUuY3NzIn0= */

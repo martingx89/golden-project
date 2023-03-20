@@ -1,3 +1,10 @@
+/*Variables*/
+
+$font-logo: "Dancing Script", cursive; //replacement for wisdom script from google fonts
+$font-main: "Montserrat", sans-serif; //google fonts
+$font-regular: "Roboto Slab", serif; //google fonts
+$font-emphasis: "Droid Serif", italic; //adobe fonts
+
 /*Global*/
 
 *,
@@ -8,4 +15,10 @@
 
 html {
 	scroll-behavior: smooth;
+}
+
+body {
+	font-family: $font-regular;
+	font-weight: normal;
+	font-style: 14px;
 }
