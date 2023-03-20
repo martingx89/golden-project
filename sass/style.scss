@@ -24,6 +24,7 @@ body {
 	font-family: $font-regular;
 	font-weight: normal;
 	font-style: 14px;
+	margin: 0;
 }
 
 .container {
@@ -42,5 +43,12 @@ body {
 /*header*/
 
 .splash {
+	display: flex;
 	background: url(https://i.postimg.cc/B6MHbDf9/splash-image.jpg) center center / cover fixed;
+	min-height: 700px;
+
+	.splash-inner {
+		text-align: center;
+		margin: auto;
+	}
 }
