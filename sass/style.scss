@@ -36,6 +36,23 @@ body {
 	justify-content: space-between;
 }
 
+.btn {
+	font-family: $font-regular;
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+	width: 10rem;
+	padding: 1rem;
+	background-color: $color-one;
+	border: none;
+	border-radius: 0.3rem;
+	transition: transform 0.2s;
+
+	&:hover {
+		transform: scale(1.1);
+	}
+}
+
 /*navigation*/
 
 nav {
