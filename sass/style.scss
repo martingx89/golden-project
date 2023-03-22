@@ -39,7 +39,7 @@ h2 {
 
 	h1 {
 		font-size: 48px;
-		margin-bottom: 18px;
+		margin-bottom: 0;
 	}
 }
 
@@ -86,7 +86,7 @@ nav {
 		}
 
 		a {
-			font-size: 14px;
+			font-size: 1em;
 			text-transform: uppercase;
 			text-decoration: none;
 			color: $color-two;
