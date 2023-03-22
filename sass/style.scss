@@ -47,6 +47,7 @@ nav {
 		margin: 0;
 		list-style-type: none;
 		position: absolute;
+		z-index: 1;
 
 		li {
 			display: inline-block;
@@ -54,6 +55,18 @@ nav {
 			position: relative;
 			flex-flow: row nowrap;
 			justify-content: flex-end;
+		}
+
+		a {
+			font-size: 14px;
+			text-transform: uppercase;
+			text-decoration: none;
+			color: $color-two;
+			transition: all 0.2s;
+
+			&:hover {
+				color: $color-one;
+			}
 		}
 	}
 }
