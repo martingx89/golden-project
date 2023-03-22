@@ -7,6 +7,7 @@ $font-emphasis: "Droid Serif", italic; //adobe fonts
 
 $color-one: rgb(238, 209, 74);
 $color-two: rgb(251, 251, 251);
+$color-three: #000;
 
 /*Global*/
 
@@ -35,6 +36,10 @@ body {
 		font-size: 48px;
 		margin-bottom: 18px;
 	}
+}
+
+.row {
+	justify-content: space-around;
 }
 
 /*Navigation*/
@@ -72,6 +77,18 @@ nav {
 		}
 	}
 }
+/* header */
+
+.logo {
+	position: absolute;
+	top: 4vw;
+	left: 10vw;
+	margin: 0;
+	font-size: 26px;
+	font-family: $font-logo;
+	text-transform: capitalize;
+	color: $color-one;
+}
 
 /*  Splash  */
 .splash {
@@ -85,7 +102,7 @@ nav {
 	display: block;
 	width: 100%;
 	height: 930px;
-	background-color: #000000;
+	background-color: $color-three;
 	opacity: 0.5;
 }
 
