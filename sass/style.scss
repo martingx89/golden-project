@@ -120,6 +120,24 @@ nav {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -70%);
+
+	.btn {
+		display: inline-block;
+		min-width: 130px;
+		min-height: 65px;
+		padding: 25px 50px 26px;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-weight: bold;
+		font-family: $font-main;
+		font-size: 18px;
+		color: $color-two;
+		cursor: pointer;
+		background-color: $color-one;
+		border: none;
+		border-radius: 5px;
+		margin: 0 auto;
+	}
 }
 
 .page-title {
