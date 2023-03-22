@@ -28,6 +28,11 @@ body {
 	font-family: $font-regular;
 }
 
+h1,
+h2 {
+	color: $color-two;
+}
+
 .container {
 	max-width: 1140px;
 	margin: 0 auto;
@@ -77,12 +82,13 @@ nav {
 		}
 	}
 }
-/* header */
+
+/*  Splash  */
 
 .logo {
 	position: absolute;
 	top: 4vw;
-	left: 10vw;
+	left: 15vw;
 	margin: 0;
 	font-size: 26px;
 	font-family: $font-logo;
@@ -90,24 +96,22 @@ nav {
 	color: $color-one;
 }
 
-/*  Splash  */
 .splash {
 	background-image: url(https://i.postimg.cc/B6MHbDf9/splash-image.jpg);
 	background-size: cover;
-	// color: $color-four;
 	min-height: 930px;
-}
 
-.transparent {
-	display: block;
-	width: 100%;
-	height: 930px;
-	background-color: $color-three;
-	opacity: 0.5;
+	.transparent {
+		display: block;
+		width: 100%;
+		height: 930px;
+		background-color: $color-three;
+		opacity: 0.5;
+	}
 }
 
 .splash-inner {
-	margin: 10% auto;
+	margin: 5% auto;
 	max-width: 100%;
 	flex-direction: column;
 	align-content: center;
@@ -122,19 +126,20 @@ nav {
 	margin: 0;
 	font-size: 4.6vmax;
 	word-spacing: 0;
-	font-weight: 700;
+	font-weight: bold;
 	line-height: 1.2;
-	// font-family: $font-header;
+	font-family: $font-main;
 	text-align: center;
-	/*padding-bottom: 2em;*/
+	text-transform: uppercase;
 }
 
 .page-subtitle {
 	margin-top: 10vw;
 	font-size: 2.5vmax;
-	font-weight: 400;
+	font-family: $font-emphasis;
+	font-weight: normal;
 	text-align: center;
-	font-style: italic;
+	text-transform: capitalize;
 }
 
 .golden {
