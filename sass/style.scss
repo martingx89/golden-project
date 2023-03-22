@@ -21,23 +21,77 @@ html {
 }
 
 body {
-	font-family: $font-regular;
-	font-weight: normal;
-	font-style: 14px;
 	margin: 0;
+	font-size: 16px;
+	line-height: 1.7;
+	font-family: $font-regular;
 }
 
-/*header*/
+.container {
+	max-width: 1140px;
+	margin: 0 auto;
 
-.splash {
-	background: url(https://i.postimg.cc/B6MHbDf9/splash-image.jpg) top center / cover fixed;
-	min-height: 700px;
-
-	.splash-inner {
-		position: relative;
-		text-align: center;
-		margin: auto;
+	h1 {
+		font-size: 48px;
+		margin-bottom: 18px;
 	}
 }
 
-/*navigation*/
+/*  Splash  */
+.splash {
+	background-image: url(https://i.postimg.cc/B6MHbDf9/splash-image.jpg);
+	background-size: cover;
+	// color: $color-four;
+	min-height: 930px;
+}
+
+.transparent {
+	display: block;
+	width: 100%;
+	height: 930px;
+	background-color: #000000;
+	opacity: 0.5;
+}
+
+.splash-inner {
+	margin: 10% auto;
+	max-width: 100%;
+	flex-direction: column;
+	align-content: center;
+	position: absolute;
+	width: 100%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -70%);
+}
+
+.page-title {
+	margin: 0;
+	font-size: 4.6vmax;
+	word-spacing: 0;
+	font-weight: 700;
+	line-height: 1.2;
+	// font-family: $font-header;
+	text-align: center;
+	/*padding-bottom: 2em;*/
+}
+
+.page-subtitle {
+	margin-top: 10vw;
+	font-size: 2.5vmax;
+	font-weight: 400;
+	text-align: center;
+	font-style: italic;
+}
+
+.golden {
+	margin: 0;
+	// font-family: $font-golden;
+	font-size: 26px;
+	// color: $color-one;
+	font-style: italic;
+	position: absolute;
+	text-transform: none;
+	top: 3vw;
+	left: 10vw;
+}
