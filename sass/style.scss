@@ -31,9 +31,21 @@ body {
 	font-family: $font-regular;
 }
 
+section {
+	padding: 120px 0;
+}
+
 h1,
 h2 {
 	color: $color-two;
+}
+
+h1 {
+	margin-bottom: 0;
+	font-size: 40px;
+	text-transform: uppercase;
+	font-family: $font-main;
+	text-align: center;
 }
 
 .container {
@@ -48,6 +60,20 @@ h2 {
 
 .row {
 	justify-content: space-around;
+}
+
+.section-title {
+	color: $color-three;
+}
+
+h3 {
+	font-family: $font-emphasis;
+	font-size: 16px;
+	color: $color-six;
+	margin-top: 0;
+	text-align: center;
+	margin-bottom: 5%;
+	margin-top: -0.7%;
 }
 
 .btn {
