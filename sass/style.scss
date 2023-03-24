@@ -173,13 +173,14 @@ nav {
 		flex-direction: column;
 		margin-right: 1%;
 		margin-bottom: 8%;
-		height: 300px;
-		width: 290px;
-
-		img {
-			object-fit: cover;
-			width: 100%;
-			height: 100%;
+		.image {
+			height: 300px;
+			width: 290px;
+			img {
+				object-fit: cover;
+				width: 100%;
+				height: 100%;
+			}
 		}
 	}
 }
