@@ -10,6 +10,7 @@ $color-two: rgb(251, 251, 251);
 $color-three: #000;
 $color-four: #f7f7f7;
 $color-five: #fff;
+$color-six: #737373;
 
 /*Global*/
 
@@ -173,9 +174,28 @@ nav {
 		flex-direction: column;
 		margin-right: 1%;
 		margin-bottom: 8%;
+
+		.image-text {
+			text-align: center;
+
+			h4 {
+				font-family: $font-main;
+				font-weight: bold;
+				font-size: 18px;
+				margin-bottom: 0;
+			}
+
+			p {
+				font-family: $font-emphasis;
+				font-size: 16px;
+				color: $color-six;
+				margin-top: 0;
+			}
+		}
+
 		.image {
 			height: 300px;
-			width: 290px;
+			// width: 290px;
 			img {
 				object-fit: cover;
 				width: 100%;
