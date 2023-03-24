@@ -196,6 +196,19 @@ nav {
 	flex-direction: column;
 	padding-right: 10;
 
+	i {
+		font-size: 35px;
+		text-align: center;
+		height: 70px;
+		width: 70px;
+		line-height: 70px;
+		margin: 0 auto;
+		margin-bottom: 20px;
+		border: 2px solid;
+		border-radius: 50%;
+		color: $color-one;
+	}
+
 	h1 {
 		color: $color-three;
 		font-size: 1.3em;
