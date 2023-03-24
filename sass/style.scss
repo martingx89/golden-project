@@ -8,6 +8,9 @@ $font-emphasis: "Droid Serif", italic; //adobe fonts
 $color-one: rgb(238, 209, 74);
 $color-two: rgb(251, 251, 251);
 $color-three: #000;
+$color-four: #f7f7f7;
+$color-five: #fff;
+$color-six: #737373;
 
 /*Global*/
 
@@ -28,9 +31,21 @@ body {
 	font-family: $font-regular;
 }
 
+section {
+	padding: 120px 0;
+}
+
 h1,
 h2 {
 	color: $color-two;
+}
+
+h1 {
+	margin-bottom: 0;
+	font-size: 40px;
+	text-transform: uppercase;
+	font-family: $font-main;
+	text-align: center;
 }
 
 .container {
@@ -45,6 +60,20 @@ h2 {
 
 .row {
 	justify-content: space-around;
+}
+
+.section-title {
+	color: $color-three;
+}
+
+h3 {
+	font-family: $font-emphasis;
+	font-size: 16px;
+	color: $color-six;
+	margin-top: 0;
+	text-align: center;
+	margin-bottom: 5%;
+	margin-top: -0.7%;
 }
 
 .btn {
@@ -158,14 +187,46 @@ nav {
 	text-transform: capitalize;
 }
 
-.golden {
-	margin: 0;
-	// font-family: $font-golden;
-	font-size: 26px;
-	// color: $color-one;
-	font-style: italic;
-	position: absolute;
-	text-transform: none;
-	top: 3vw;
-	left: 10vw;
+/*portfolio*/
+
+.portfolio {
+	background-color: $color-four;
+
+	.box-portfolio {
+		background-color: $color-five;
+		padding: 0;
+		display: flex;
+		justify-content: space-around;
+		flex-direction: column;
+		margin-right: 1%;
+		margin-bottom: 8%;
+
+		.image-text {
+			text-align: center;
+
+			h4 {
+				font-family: $font-main;
+				font-weight: bold;
+				font-size: 18px;
+				margin-bottom: 0;
+			}
+
+			p {
+				font-family: $font-emphasis;
+				font-size: 16px;
+				color: $color-six;
+				margin-top: 0;
+			}
+		}
+
+		.image {
+			height: 300px;
+			// width: 290px;
+			img {
+				object-fit: cover;
+				width: 100%;
+				height: 100%;
+			}
+		}
+	}
 }
