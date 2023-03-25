@@ -264,3 +264,60 @@ nav {
 		}
 	}
 }
+
+/*footer*/
+
+footer {
+	display: flex;
+	margin: 48px 15%;
+	text-align: center;
+	padding: 5px;
+	justify-content: flex-start;
+
+	.row {
+		width: 100%;
+		justify-content: center;
+	}
+
+	.social-media {
+		position: relative;
+		transform: translateX(-25%);
+
+		ul {
+			margin: 0 auto;
+			padding: 0;
+		}
+
+		li {
+			list-style-type: none;
+			display: inline;
+			padding-right: 5px;
+			padding-left: 5px;
+		}
+
+		i {
+			color: $color-two;
+			background-color: $color-three;
+			font-size: 18px;
+			height: 40px;
+			width: 40px;
+			line-height: 40px;
+			margin: 0 auto;
+			padding: 0;
+			border-radius: 50%;
+		}
+	}
+}
+
+.copyright {
+	position: relative;
+	left: -50%;
+	transform: translateX(50%);
+
+	p {
+		font-family: $font-main;
+		font-size: 14px;
+		margin: auto;
+		padding: 0;
+	}
+}
