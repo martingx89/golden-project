@@ -269,7 +269,7 @@ nav {
 
 footer {
 	display: flex;
-	margin: 48px 15%;
+	margin: 48px auto;
 	text-align: center;
 	padding: 5px;
 	justify-content: flex-start;
@@ -319,5 +319,14 @@ footer {
 		font-size: 14px;
 		margin: auto;
 		padding: 0;
+	}
+}
+
+/*Media*/
+
+@media (max-width: 767px) and (max-width: 991px) {
+	.logo {
+		font-size: 2em;
+		left: 7vmin;
 	}
 }
