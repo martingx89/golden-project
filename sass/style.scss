@@ -140,6 +140,7 @@ nav {
 	font-family: $font-logo;
 	text-transform: capitalize;
 	color: $color-one;
+	z-index: 1;
 }
 
 .splash {
@@ -325,8 +326,26 @@ footer {
 /*Media*/
 
 @media (max-width: 767px) and (max-width: 991px) {
+	nav {
+		.row {
+			margin-top: 20px;
+		}
+	}
+
+	nav ul {
+		position: absolute;
+		width: 90%;
+		flex-direction: row;
+		top: 20vmin;
+		left: 50%;
+		right: auto;
+		text-align: center;
+		transform: translateX(-45%);
+	}
+
 	.logo {
 		font-size: 2em;
-		left: 7vmin;
+		left: 50%;
+		transform: translateX(-50%);
 	}
 }
