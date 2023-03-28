@@ -312,14 +312,15 @@ footer {
 
 .copyright {
 	position: relative;
-	left: -50%;
-	transform: translateX(50%);
+	left: -25%;
+	transform: translateX(25%);
 
 	p {
 		font-family: $font-main;
 		font-size: 14px;
 		margin: auto;
 		padding: 0;
+		left: 15vw;
 	}
 }
 
@@ -347,5 +348,23 @@ footer {
 		font-size: 2em;
 		left: 50%;
 		transform: translateX(-50%);
+	}
+
+	footer {
+		.row {
+			flex-direction: column;
+			justify-content: center;
+
+			.social-media {
+				left: 50%;
+				transform: translateX(-50%);
+			}
+
+			.copyright {
+				p {
+					margin-bottom: 20px;
+				}
+			}
+		}
 	}
 }
